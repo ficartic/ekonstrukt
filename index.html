@@ -3,10 +3,13 @@
 <html lang="">
 
 <head>
-<title class="heading">Baubend</title>
+<title class="heading">Ekonstrukt</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+ 
+ <!-- Google tag (gtag.js) -->
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -16,14 +19,14 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left" >
-      <h1><a href="index.html">Baubend</a></h1>
+      <figure><img src="images/logo.png"></figure>
     </div>
     <div id="quickinfo" class="fl_right">
       <ul class="nospace inline">
         <li><strong>Telefon:</strong><br>
-          +386 40 977 501</li>
+          +386 31 712 387</li>
         <li><strong>Mail:</strong><br>
-          info@baubend.si</li>
+          info@ekonstrukt.si</li>
       </ul>
     </div>
     <!-- ################################################################################################ -->
@@ -32,16 +35,22 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row2" >
+<div class="wrapper row2">
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
       <li class="active"><a href="index.html">Domov</a></li>
-      <li><a href="pages/Izdelki.html">Izdelki</a></li>
-      <li><a href="pages/Materiali in barve.html">Materiali in barve</a></li>
-	  <li><a href="pages/O nas.html">O nas</a></li>
-      <li><a href="pages/Reference.html">Reference</a></li>
-      
+      <li><a class="drop" href="izdelki.html">Izdelki</a>
+	    <ul>
+          <li><a href="izdelki/aluminijasti profili.html">Aluminijasti profili</a></li>
+		  <li><a href="izdelki/kljuke.html">Kljuke</a></li>
+		  <li><a href="izdelki/vijaki in matice.html">Vijaki in matice</a></li>
+          <li><a href="izdelki/ostalo.html">Ostalo</a></li>
+        </ul>
+      </li>
+      <li><a href="lastnosti in prednosti.html">Lastnosti in prednosti</a></li>
+	  <li><a href="o nas.html">O nas</a></li>
+      <li><a href="reference.html">Reference</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </nav>
@@ -49,14 +58,14 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/ref00.jpg');">
+<div class="wrapper bgded overlay" style="background-image:url('images/backgrounds/ref00.jpg');">
   <div id="pageintro" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <article>
       <div>
         <p class="heading"></p>
-        <h2 class="heading">Baubend</h2>
-        <p>Kleparski izdelki za vsak projekt.</p>
+        <h2 class="heading">Ekonstrukt</h2>
+        <p>Solarne konstrukcije za vsak projekt.</p>
       </div>
       <footer>
         <ul class="nospace inline pushright">
@@ -75,14 +84,21 @@
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
+	<p>Pri podjetju Ekonstrukt d.o.o. vam ponujamo kakovostne konstrukcije za sončne elektrarne, 
+	ki bodo učinkovito izkoristile sončno energijo in poskrbele za zeleno in trajnostno oskrbo vašega doma z električno energijo.</p>
+	<br>
       <!-- ################################################################################################ -->
       <div id="gallery">
         <figure>
           <ul class="nospace clear">
-            <li class="one_half first">Reference<a href="pages/Reference.html"><img src="images/demo/backgrounds/reference.jpg" alt=""></a></li>
-            <li class="one_half">Izdelki<a href="pages/Izdelki.html"><img src="images/demo/izdelki6.png" alt=""></a></li>
+            <li class="one_half first"><img src="images/backgrounds/reference.jpg" alt="">
+			<p><a class="btn medium" href="reference.html">Reference &raquo;</a></p></li>
+			<li class="one_half"><img src="images/izdelki_vsi.png" alt="">
+			<p><a class="btn medium" href="izdelki.html">Izdelki &raquo;</a></p></li>
           </ul>
         </figure>
+		Tukaj si lahko ogledate: <a style="color:DodgerBlue;" href="https://drive.google.com/file/d/182W-7N_E86hFSKUnbrbNfnh5m9IdBczp/view?usp=sharing" 
+		target="_blank">Ekonstrukt_katalog_izdelkov_2024</a>
       </div>
       <!-- ################################################################################################ -->
       <!-- ################################################################################################ -->
@@ -96,44 +112,21 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/');">
+<div class="wrapper bgded overlay" style="background-image:url('images/backgrounds/');">
   <article class="hoc container clear center"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle" style="margin-bottom:30px;">
       <h6 class="heading"></h6>
       <p>Če želiš izvedeti več o nas, klikni na gumb</p>
     </div>
-    <p><a class="btn medium" href="pages/O nas.html">Več &raquo;</a></p>
+    <p><a class="btn medium" href="o nas.html">Več &raquo;</a></p>
+	
     <!-- ################################################################################################ -->
   </article>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading"style="text-transform: none">Novo v ponudbi!</h6>
-      
-	  <div class="content"> 
-      <!-- ################################################################################################ -->
-      <div id="gallery">
-	 
-        <figure>
-          <ul class="nospace clear">
-            <li class="one_half first">Maske za žaluzije<a href="pages/Izdelki.html"><img src="images/demo/gallery/maske_za_zaluzije.png" alt="" ></a></li>
-            <li class="one_half">Vrtni robniki<a href="pages/Izdelki.html"><img src="images/demo/gallery/maske_za_zaluzije.png" alt=""></a></li>
-          </ul>
-        </figure>
-      </div>
-    </div>
-    
-       
-    </div>  
-    <!-- ################################################################################################ -->
-  </section>
-</div>
 
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -145,28 +138,30 @@
       <h6 class="heading">Kontakt</h6>
       <ul class="nospace btmspace-30 linklist contact">
         
-        <li><i class="fa fa-phone"></i> +386 40 977 501</li>
-        <li><i class="fa fa-envelope-o"></i>info@baubend.si</li>
+        <li><i class="fa fa-phone"></i> +386 31 712 387</li>
+        <li><i class="fa fa-envelope-o"></i>info@ekonstrukt.si</li>
 		<li><i class="fa fa-map-marker"></i>
           <address>
-          Leskovica pri Šmartnem 4 <br>1275 Šmartno pri Litiji
+          Stična 2 <br>1295 Ivančna Gorica
           </address>
         </li>
-	
+		<li>davčna št.: 95038752</li>
+		<li>TRR:  </li>
       </ul>
       <ul class="faico clear">
-        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-      
-        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-facebook" href="https://www.facebook.com/profile.php?id=100091736891229" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-instagram" href="https://www.instagram.com/baubend/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a class="faicon-linkedin" href="https://www.linkedin.com/company/baubend/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
       </ul>
     </div>
     
     <div class="two_third">
       <h6 style="text-center:left;text-transform: none"class="heading">Kje smo</h6>
 		<div style="width: 100%">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d88652.57722885795!2d14.79560198855802!3d46.02330582488362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6bbe8b308583cb2c!2sBaubend!5e0!3m2!1ssl!2ssi!4v1680256497394!5m2!1ssl!2ssi" 
+		<iframe src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Sti%C4%8Dna%202%201295%20Ivan%C4%8Dna%20Gorica+(My%20Business%20Name)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
 		style="height:400px;width:100%;border:none;overflow:hidden;"></iframe>
+		
+		
 		</div>
     </div>
    
@@ -179,7 +174,7 @@
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2023 - All Rights Reserved - <a href="#">Baubend</a></p>
+    <p class="fl_left">Copyright &copy; 2024 - All Rights Reserved - <a href="#">Ekonstrukt</a></p>
    <!-- <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p> -->
     <!-- ################################################################################################ -->
   </div>
